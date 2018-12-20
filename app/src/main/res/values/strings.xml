@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">HelloDoctor</string>
+    <string name="patient_login">Log in as Patient</string>
+    <string name="doctor_login">Log in as Doctor</string>
+
+    <string name="selectDept">Select Health Department</string>
+    <string name="selectDetails">Select other details</string>
+    <string name="selectHospital">Select Hospital</string>
+    <string name="selectDoctor">Select Doctor</string>
+    <string name="selectHour">Select Visitation Hour</string>
+    <string name="selectHours">Select Available Hours</string>
+    <string name="patientDetails">Fill in the Patient Details</string>
+
+    <string name="done">Done</string>
+    <string name="submit">Submit</string>
+    <string name="add">Add Doctor</string>
+
+    <string name="hint_01">Name</string>
+    <string name="hint_02">Phone number</string>
+    <string name="hint_03">Email address</string>
+    <string name="hint_04">Age</string>
+    <string name="hint_05">New Hospital</string>
+    <string name="hint_06">New Dept.</string>
+
+    <string name="hour_01">09.00AM - 09.50AM</string>
+    <string name="hour_02">10.00AM - 10.50AM</string>
+    <string name="hour_03">11.00AM - 11.50AM</string>
+    <string name="hour_04">12.00AM - 12.50AM</string>
+    <string name="hour_05">01.00PM - 01.50PM</string>
+    <string name="hour_06">02.00PM - 02.50PM</string>
+    <string name="hour_07">03.00PM - 03.50PM</string>
+    <string name="hour_08">04.00PM - 04.50PM</string>
+    <string name="hour_09">05.00PM - 05.50PM</string>
+    <string name="hour_10">06.00PM - 06.50PM</string>
+    <string name="hour_11">07.00PM - 07.50PM</string>
+    <string name="hour_12">08.00PM - 08.50PM</string>
+</resources>

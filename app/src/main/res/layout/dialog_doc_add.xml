@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/hint_01"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/sp_01"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_02"
+        app:layout_constraintBottom_toBottomOf="@+id/et_02" />
+
+    <EditText
+        android:id="@+id/et_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/hint_05"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/sp_01"
+        app:layout_constraintTop_toBottomOf="@+id/et_01" />
+
+    <Spinner
+        android:id="@+id/sp_02"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_03"
+        app:layout_constraintBottom_toBottomOf="@+id/et_03" />
+
+    <EditText
+        android:id="@+id/et_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/hint_06"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/sp_02"
+        app:layout_constraintTop_toBottomOf="@+id/et_02" />
+
+    <TextView
+        android:id="@+id/tv_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/selectHours"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_03" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_01">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="4dp">
+
+            <CheckBox
+                android:id="@+id/cb_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checked"
+                android:text="@string/hour_01" />
+
+            <CheckBox
+                android:id="@+id/cb_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checked"
+                android:text="@string/hour_02" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="checked"
+            android:paddingBottom="4dp">
+
+        <CheckBox
+            android:id="@+id/cb_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checked"
+            android:text="@string/hour_03" />
+
+        <CheckBox
+            android:id="@+id/cb_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checked"
+            android:text="@string/hour_04" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="checked"
+            android:paddingBottom="4dp">
+
+            <CheckBox
+                android:id="@+id/cb_05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checked"
+                android:text="@string/hour_05" />
+
+            <CheckBox
+                android:id="@+id/cb_06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checked"
+                android:text="@string/hour_06" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="checked"
+            android:paddingBottom="4dp">
+
+            <CheckBox
+                android:id="@+id/cb_07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checked"
+                android:text="@string/hour_07" />
+
+            <CheckBox
+                android:id="@+id/cb_08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checked"
+                android:text="@string/hour_08" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="checked"
+            android:paddingBottom="4dp">
+
+            <CheckBox
+                android:id="@+id/cb_09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checked"
+                android:text="@string/hour_09" />
+
+            <CheckBox
+                android:id="@+id/cb_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checked"
+                android:text="@string/hour_10" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="checked"
+            android:paddingBottom="4dp">
+
+            <CheckBox
+                android:id="@+id/cb_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checked"
+                android:text="@string/hour_11" />
+
+            <CheckBox
+                android:id="@+id/cb_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checked"
+                android:text="@string/hour_12" />
+        </TableRow>
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
